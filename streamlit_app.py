@@ -18,7 +18,7 @@ def load_css_file(css_file_path):
 
 load_css_file(CSS_FILE)
 
-st.title("Unless Bot")
+st.title("Unless Bot!")
 
 def main():
     client = OpenAI(api_key=st.session_state.openai_api_key)
@@ -30,7 +30,6 @@ def main():
     st.session_state["openai_model"] = st.sidebar.selectbox("Select OpenAI model", models, index=0)
     st.session_state["tone"] = st.sidebar.selectbox("Customize my tone!", ('Normal', 'Philosophical', 'OUTRAGEOUSLY FUNNY!', 'Depressed :('))
     st.session_state["lang"] = st.sidebar.selectbox("Language", ('English', 'Chinese (Mandarin)', 'Korean', 'French'))
-    st.header("Unless Bot!")
     st.sidebar.markdown(f'<a href="https://buy.stripe.com/14k4jp0Yi6my2qsdQQ" class="button"> Unlock Unlimited!</a>',
                 unsafe_allow_html=True,
                )
