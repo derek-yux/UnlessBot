@@ -2,7 +2,7 @@
 
 A chatbot that proposes crazy scenarios using Streamlit and OpenAI model 3.5!
 
-[![Open in Streamlit](https://chatbot-ibp7tyijl7q.streamlit.app/)]
+[Open in Streamlit](https://chatbot-ibp7tyijl7q.streamlit.app/)
 
 ### How to run it on your own machine
 
