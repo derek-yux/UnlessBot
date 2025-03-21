@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import streamlit as st
 from openai import OpenAI
 import json
@@ -5,6 +7,16 @@ import os
 
 
 DB_FILE = 'db.json'
+THIS_DIR = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+CSS_FILE = THIS_DIR / "main.css"
+
+
+def load_css_file(css_file_path):
+    with open(css_file_path) as f:
+        return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+
+load_css_file(CSS_FILE)
 
 def main():
     client = OpenAI(api_key=st.session_state.openai_api_key)
@@ -68,11 +80,6 @@ def main():
         # Clear chat messages in session state
         st.session_state.messages = []
         st.rerun()
-
-
-def load_css_file(css_file_path):
-    with open(css_file_path) as f:
-        return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
 if __name__ == '__main__':
