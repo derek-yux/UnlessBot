@@ -22,7 +22,7 @@ load_css_file(CSS_FILE)
 
 st.title("Unless Bot!")
 
-age_bg_img = '''
+page_bg_img = '''
 <style>
 body {
 background-image: url("https://i.etsystatic.com/14816426/r/il/1b1ce0/3679298644/il_570xN.3679298644_ncwd.jpg");
