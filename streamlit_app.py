@@ -5,7 +5,8 @@ from openai import OpenAI
 import json
 import os
 
-st.beta_set_page_config(page_title='Unless Bot!', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
+st.set_page_config(page_title="Unless Bot!", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
+
 
 DB_FILE = 'db.json'
 THIS_DIR = Path(__file__).parent if "__file__" in locals() else Path.cwd()
