@@ -27,7 +27,7 @@
 .button:hover, .button:active {
   background-color: red;
 }
-
+background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Ftriblive.com%2Flocal%2Fwestmoreland%2Fhappy-little-trees-penn-township-woman-to-teach-joy-of-bob-ross-painting-at-workshop%2F&psig=AOvVaw00npV3qCKBTEb_eJEmuNZu&ust=1742613631235000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIi5quabmowDFQAAAAAdAAAAABAE');
 /* Style inputs with type="text", type="email"and textareas */
 input[type=text], input[type=email], textarea {
   width: 100%; /* Full width */
