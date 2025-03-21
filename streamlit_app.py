@@ -18,6 +18,8 @@ def load_css_file(css_file_path):
 
 load_css_file(CSS_FILE)
 
+st.title("Unless Bot")
+
 def main():
     client = OpenAI(api_key=st.session_state.openai_api_key)
 
