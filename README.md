@@ -1,4 +1,4 @@
-# 💬 ...Unless? Bot!
+# 😱 ...Unless? Bot!
 
 A chatbot that proposes crazy scenarios using Streamlit and OpenAI model 3.5!
 
