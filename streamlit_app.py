@@ -22,6 +22,17 @@ load_css_file(CSS_FILE)
 
 st.title("Unless Bot!")
 
+age_bg_img = '''
+<style>
+body {
+background-image: url("https://i.etsystatic.com/14816426/r/il/1b1ce0/3679298644/il_570xN.3679298644_ncwd.jpg");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 def main():
     client = OpenAI(api_key=st.session_state.openai_api_key)
 
