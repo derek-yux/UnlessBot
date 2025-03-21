@@ -70,6 +70,11 @@ def main():
         st.rerun()
 
 
+def load_css_file(css_file_path):
+    with open(css_file_path) as f:
+        return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+
 if __name__ == '__main__':
 
     if 'openai_api_key' in st.session_state and st.session_state.openai_api_key:
