@@ -17,7 +17,7 @@ def main():
     st.session_state["tone"] = st.sidebar.selectbox("Customize my tone!", ('Normal', 'Philosophical', 'OUTRAGEOUSLY FUNNY!', 'Depressed :('))
     st.session_state["lang"] = st.sidebar.selectbox("Language", ('English', 'Chinese (Mandarin)', 'Korean', 'French'))
     st.header("Unless Bot!")
-    st.markdown(f'<a href={https://buy.stripe.com/14k4jp0Yi6my2qsdQQ} class="button"> Unlock Unlimited Unlesses!</a>',
+    st.sidebar.markdown(f'<a href={https://buy.stripe.com/14k4jp0Yi6my2qsdQQ} class="button"> Unlock Unlimited Unlesses!</a>',
                 unsafe_allow_html=True,
                )
     st.subheader(":green[...unless?]")
