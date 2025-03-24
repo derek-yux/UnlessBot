@@ -1,6 +1,7 @@
 # 😱 ...Unless? Bot!
 
 A chatbot that proposes crazy scenarios using Streamlit and OpenAI model 3.5!
+Made by: **Derek (Yue) Yu**
 
 [Open in Streamlit](https://chatbot-ibp7tyijl7q.streamlit.app/)
 
@@ -23,3 +24,4 @@ A chatbot that proposes crazy scenarios using Streamlit and OpenAI model 3.5!
    ```
    Get yours here: https://platform.openai.com/api-keys
    ```
+Enjoy! :)
